@@ -590,6 +590,7 @@ public class Interface {
         showList.setEditable(false);
         JButton exit = new JButton("Назад");
         JLabel title = new JLabel(name);
+        int result;
         int j = 1;
         for(int i = 0; i < list.size(); i++){
             StringBuilder currentInform = new StringBuilder(j + ") " + list.get(i).surname + " " +
